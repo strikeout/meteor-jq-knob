@@ -1,7 +1,7 @@
 Package.describe({
-  summary: "jQuery-Knob smart package for Meteor "
+    summary: "jQuery-Knob smart package for Meteor"
 });
 
-Package.on_use(function (api, where) {
-  api.add_files('page-js/index.js', 'client');
+Package.on_use(function(api, where) {
+    api.add_files('lib/js/jquery.knob.js', 'client');
 });
