@@ -2,8 +2,8 @@
   "name": "jq-knob",
   "description": "jQuery-Knob smart package for Meteort",
   "homepage": "https://github.com/strikeout/meteor-jq-knob",
-  "author": "Tom Coleman <tom@thesnail.org>",
-  "version": "1.3.5",
+  "author": "Thomas Steinhauer",
+  "version": "0.0.1",
   "git": "https://github.com/strikeout/meteor-jq-knob.git",
   "packages": {}
 }
