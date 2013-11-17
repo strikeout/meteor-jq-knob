@@ -1,5 +1,5 @@
 Package.describe({
-    summary: "jQuery-Knob smart package for Meteor"
+    summary: "jQuery-Knob, the touch-friendly dial control"
 });
 
 Package.on_use(function(api, where) {
