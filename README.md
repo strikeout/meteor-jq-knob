@@ -1,10 +1,10 @@
-A Meteor wrapper for the excellent jQuery-Knob library 
+jQuery-Knob repackaged for Meteor
 -------
-(https://github.com/aterrien/jQuery-Knob)
 
+[jQuery-Knob](https://github.com/aterrien/jQuery-Knob) is a nice, downward-compatible,
+touchable, jQuery dial control. Demo at <http://anthonyterrien.com/knob/>.
 
-
-Just use it as you normally would, but inside your Template.rendered() Meteor method
+Just use it as you normally would, but inside your `Template.rendered()` Meteor method:
 
 
 ```html
@@ -39,9 +39,9 @@ Options are provided as attributes 'data-option':
                     ,'max':50
                     });
 
-The following options are supported :
+The following options are supported:
 
-Behaviors :
+Behaviors:
 * min : min value | default=0.
 * max : max value | default=100.
 * step : step size | default=1.
@@ -50,7 +50,7 @@ Behaviors :
 * stopper : stop at min & max on keydown/mousewheel | default=true.
 * readOnly : disable input and events | default=false.
 
-UI :
+UI:
 * cursor : display mode "cursor", cursor size could be changed passing a numeric value to the option, default width is used when passing boolean value "true" | default=gauge.
 * thickness : gauge thickness.
 * lineCap : gauge stroke endings. | default=butt, round=rounded line endings
